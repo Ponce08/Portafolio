@@ -74,7 +74,7 @@
 
 /* Response Dising */
 
-@media (width < 370px) {
+@media (width < 400px) {
   .content_main_about {
     margin: 100px 50px;
     h1 {

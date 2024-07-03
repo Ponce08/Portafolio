@@ -55,7 +55,7 @@
   color: #d5dbdb;
 }
 
-@media (width < 370px) {
+@media (width < 400px) {
   .content_main_about2 {
     margin: 0 20px 0 20px;
   }

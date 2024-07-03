@@ -19,7 +19,7 @@ html {
 
 /* Response Dising */
 
-@media (width < 370px) {
+@media (width < 400px) {
   html {
    margin: 0;
   }
