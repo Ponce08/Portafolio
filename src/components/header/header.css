@@ -12,10 +12,12 @@
     5%{
         box-shadow: 0 3px 10px #b2babb;
         border-radius: 20px;
+        background-color: #BFC9CA;
     }
     100%{
         box-shadow: 0 0 10px #b2babb;
         border-radius: 20px;
+        background-color: #BFC9CA;
     }
     
 }
