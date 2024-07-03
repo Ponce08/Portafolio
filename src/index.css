@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Jost', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  width: auto;
+  background-color: #eaeded;
+  margin-left: 200px;
+  margin-right: 200px;
+  scroll-behavior: smooth;
+}
+
+.dark_mode {
+  background-image: linear-gradient(to bottom, #3a3c73 19%, #071017 100%);
+}
+
+/* Response Dising */
+
+@media (width < 400px) {
+  html {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
