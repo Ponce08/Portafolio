@@ -120,7 +120,7 @@
   align-items: center;
 }
 
-@media (width < 400px) {
+@media (width < 500px) {
   .responsive_content {
     display: flex;
     justify-content: center;
