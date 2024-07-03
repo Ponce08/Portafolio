@@ -19,9 +19,8 @@ html {
 
 /* Response Dising */
 
-@media (width < 600px) {
+@media (width < 370px) {
   html {
-    margin-left: 50px;
-    margin-right: 50px;
+   margin: 0;
   }
 }

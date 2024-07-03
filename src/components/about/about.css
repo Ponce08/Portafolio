@@ -74,9 +74,9 @@
 
 /* Response Dising */
 
-@media(width < 600px) {
-  .content_main_about{
-   margin-top: 6em;
+@media (width < 370px) {
+  .content_main_about {
+    margin: 100px 50px;
     h1 {
       font-size: 1.5em;
       text-align: center;

@@ -87,7 +87,7 @@
 
 /* Response Diding */
 
-@media(width < 400px){
+@media(width < 370px){
     .content_header{
         width: auto;
     }
