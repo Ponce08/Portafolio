@@ -42,11 +42,11 @@ export default function Proyects({ mode }) {
             mas.
           </p>
           <div className="responsive_content">
-            <a href="https://github.com/Ponce08/Be-Comfree-PF">
+            <a href="https://github.com/Ponce08/Be-Comfree-PF" target="_blank">
               <img src={github_icon} alt="github_icon" className="img_icons" />
               Code
             </a>
-            <a href="https://be-comfree-frontend.vercel.app/">
+            <a href="https://be-comfree-frontend.vercel.app/" target="_blank">
               <img src={link_icon} alt="link_icon" className="img_icons" />
               Preview
             </a>
@@ -57,7 +57,7 @@ export default function Proyects({ mode }) {
         <img src={img_countries} alt="img_contries" className={mode ? 'img_proyects' : 'img_proyects img_dark'} />
         <div className={mode ? 'content_proyects_3' : 'content_proyects_3 dark_mode_content icons_white'}>
           <h2 className={mode ? 'h2_proyects' : 'h2_proyects h2_dark'}>Countries</h2>
-          <div className='responsive_content'>
+          <div className="responsive_content">
             <span>
               <img src={javascript_icon} alt="javascript_icon" className="img_icons" />
               JavaScript
@@ -79,12 +79,12 @@ export default function Proyects({ mode }) {
             Proyecto realizado en etapa de aprendizaje como desarrollador web, esta aplicacion incluye funcionalidades basicas de
             busqueda, filtrado y ordenamiento brindando asi una agradable experiencia al usuario.
           </p>
-          <div className='responsive_content'>
-            <a href="https://github.com/Ponce08/COUNTRIES">
+          <div className="responsive_content">
+            <a href="https://github.com/Ponce08/COUNTRIES" target="_blank">
               <img src={github_icon} alt="github_icon" className="img_icons" />
               Code
             </a>
-            <a href="https://countries-frontend-blush.vercel.app/">
+            <a href="https://countries-frontend-blush.vercel.app/" target="_blank">
               <img src={link_icon} alt="link_icon" className="img_icons" />
               Preview
             </a>
