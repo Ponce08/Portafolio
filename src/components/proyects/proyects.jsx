@@ -46,7 +46,7 @@ export default function Proyects({ mode }) {
               <img src={github_icon} alt="github_icon" className="img_icons" />
               Code
             </a>
-            <a href="https://pf-indumentario-ecommerce-front.vercel.app/">
+            <a href="https://be-comfree-frontend.vercel.app/">
               <img src={link_icon} alt="link_icon" className="img_icons" />
               Preview
             </a>
@@ -84,7 +84,7 @@ export default function Proyects({ mode }) {
               <img src={github_icon} alt="github_icon" className="img_icons" />
               Code
             </a>
-            <a href="https://countries08.netlify.app/">
+            <a href="https://countries-frontend-blush.vercel.app/">
               <img src={link_icon} alt="link_icon" className="img_icons" />
               Preview
             </a>
