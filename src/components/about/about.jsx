@@ -5,7 +5,7 @@ import linkedin_icon from '../about/icons/linkedin-svgrepo-com.svg';
 
 export default function About({ mode }) {
   return (
-    <div className="content_main_about">
+    <div className="content_main_about" id="contacto">
       <div className="content_photo">
         <img src={photo} alt="photo" className="img_photo" />
         <a href="https://www.linkedin.com/in/yonathan-ponce/" target="_blank">

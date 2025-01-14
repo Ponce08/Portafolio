@@ -19,12 +19,12 @@ const App = () => {
       setIcon(sun);
       setMode(false);
       setLabelMode('Ligth Mode');
-      document.querySelector('html').classList.add('dark_mode');
+      document.querySelector('body').classList.add('dark_mode');
     } else {
       setIcon(moon);
       setMode(true);
       setLabelMode('Dark Mode');
-      document.querySelector('html').classList.remove('dark_mode');
+      document.querySelector('body').classList.remove('dark_mode');
     }
   };
   return (

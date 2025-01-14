@@ -31,8 +31,9 @@
     color: #d5dbdb;
   }
   .img_proyects {
-    width: 450px;
-    height: 200px;
+    margin-right: 25px;
+    width: 550px;
+    height: 300px;
     border-style: solid;
     border-radius: 10px;
     border-width: 1px;
@@ -43,13 +44,15 @@
   }
 
   .content_proyects_2 {
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     scroll-behavior: smooth;
-    margin: 30px 0px 30px 20px;
   }
-  .content_proyects_3 {
-    scroll-behavior: smooth;
-    margin: 30px 0px 30px 20px;
-  }
+
   .content_proyects_2 span {
     display: inline-flex;
     align-items: center;
@@ -62,18 +65,7 @@
     font-weight: bold;
     background-color: #d5f5e3;
   }
-  .content_proyects_3 span {
-    display: inline-flex;
-    align-items: center;
-    border-style: solid;
-    border-radius: 20px;
-    border-width: 1px;
-    padding: 1px 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    background-color: #d5f5e3;
-  }
+
   .content_proyects_2 a {
     display: inline-flex;
     border-style: solid;
@@ -84,24 +76,12 @@
     color: black;
     margin-right: 10px;
   }
-  .content_proyects_3 a {
-    display: inline-flex;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 20px;
-    padding: 1px 10px;
-    text-decoration: none;
-    color: black;
-    margin-right: 10px;
-  }
+
   .content_proyects_2 a:hover {
     background-color: black;
     color: #d5f5e3;
   }
-  .content_proyects_3 a:hover {
-    background-color: black;
-    color: #d5f5e3;
-  }
+
   .icons_white a:hover {
     background-color: #85c1e9;
     color: black;
@@ -120,7 +100,7 @@
   align-items: center;
 }
 
-@media (width < 500px) {
+@media (min-width: 330px) {
   .responsive_content {
     display: flex;
     justify-content: center;
@@ -132,47 +112,39 @@
   .content_proyects {
     flex-direction: column;
     .img_proyects {
+      margin: 0 0 10px 0;
       width: 300px;
       height: 150px;
     }
-    .content_proyects_2 {
-      margin: 10px 0 50px 0;
-      span {
-        font-size: 0.5em;
-        width: 8em;
-      }
-      a {
-        font-size: 0.5em;
-      }
-      .img_icons {
-        width: 10px;
-        height: 10px;
-      }
-    }
-    .content_proyects_3 {
-      margin: 10px 0 10px 0;
-      span {
-        font-size: 0.5em;
-        width: 8em;
-      }
-      a {
-        font-size: 0.5em;
-      }
-      .img_icons {
-        width: 10px;
-        height: 10px;
-      }
+  }
+  .content_proyects_2 {
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 50px 0;
+    .img_icons {
+      width: 10px;
+      height: 10px;
     }
   }
+
+  .content_proyects_2 span {
+    font-size: 0.5em;
+    width: 8em;
+  }
+  .content_proyects_2 a {
+    font-size: 0.5em;
+  }
+
   #proyectos {
     font-size: 2em;
     margin: 100px 0 10px 0;
     display: flex;
     justify-content: center;
-    .img_code_icon {
-      width: 33px;
-      height: 33px;
-    }
+  }
+  .img_code_icon {
+    width: 33px;
+    height: 33px;
   }
   .content_main_proyects {
     margin: 0 20px 100px 20px;
@@ -182,5 +154,77 @@
   }
   .h2_proyects {
     text-align: center;
+  }
+}
+
+@media (min-width: 640px) {
+  .content_main_proyects {
+    .p_proyects {
+      font-size: 2rem;
+      padding: 20px;
+    }
+    .img_proyects {
+      width: 550px;
+      height: 300px;
+    }
+    .h2_proyects {
+      font-size: 2rem;
+    }
+  }
+  #proyectos {
+    font-size: 3rem;
+  }
+  .responsive_content a {
+    font-size: 2rem;
+  }
+  .content_proyects_2 {
+    .img_icons {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .content_main_proyects {
+    margin-left: 100px;
+    .content_proyects_2 {
+      flex-direction: row;
+    }
+    .p_proyects {
+      font-size: 1.05rem;
+      padding: 0;
+      margin: 0 20px;
+      text-align: start;
+    }
+    #proyectos {
+      justify-content: start;
+    }
+    .img_proyects {
+      width: 450px;
+      height: 210px;
+    }
+    .h2_proyects {
+      font-size: 1.5rem;
+      text-align: start;
+      margin-left: 20px;
+    }
+    .responsive_content a {
+      font-size: 1rem;
+    }
+    .responsive_content {
+      margin: 20px;
+      justify-content: start;
+    }
+    .content_proyects_2 a {
+      padding: 1px 10px;
+      margin-right: 10px;
+    }
+    .content_proyects_2 {
+      .img_icons {
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 }

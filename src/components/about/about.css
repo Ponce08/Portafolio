@@ -73,8 +73,7 @@
 }
 
 /* Response Dising */
-
-@media (width < 500px) {
+@media (min-width: 330px) {
   .content_main_about {
     margin: 100px 50px;
     h1 {
@@ -109,5 +108,76 @@
     margin-bottom: 10px;
     margin-left: 20px;
     font-size: small;
+  }
+}
+
+@media (min-width: 640px) {
+  .content_main_about {
+    width: 90%;
+    padding: 20px;
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2.5em;
+    }
+    .content_a a {
+      margin-bottom: 10px;
+      margin-left: 20px;
+      font-size: large;
+    }
+    .content_a img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .content_main_about {
+    width: 80%;
+    margin: 160px 0 30px 200px;
+    p {
+      text-align: start;
+      font-size: 2em;
+      margin-top: 0;
+    }
+    h1 {
+      text-align: start;
+      font-size: 3em;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .content_a {
+      display: flex;
+      flex-direction: row;
+    }
+    .content_a a {
+      margin: 0 10px 0 0;
+    }
+    .content_a img {
+      width: 20px;
+      height: 20px;
+      margin-right: 4px;
+    }
+    .content_a img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .img_photo {
+    width: 112px;
+    height: 110px;
+  }
+
+  .content_photo {
+    display: flex;
+    flex-direction: row;
+    a {
+      display: inline-block;
+      margin-left: 20px;
+      font-size: large;
+      padding: 5px 10px;
+    }
   }
 }
