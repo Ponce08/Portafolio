@@ -6,7 +6,12 @@ export default function Header({ icon, mode, labelMode, darkMode }) {
       <div className={mode ? 'content_header_links' : 'content_header_links Dark_mode'}>
         <a href="#sobre mi">Sobre mi</a>
         <a href="#proyectos">Proyectos</a>
-        <a href="" onClick={() => window.scrollTo(0, 0)}>
+        <a
+          href=""
+          onClick={(e) => {
+            window.scrollTo(0, 0), e.preventDefault();
+          }}
+        >
           Contacto
         </a>
         <button onClick={darkMode} className={mode ? 'dark' : 'ligth'}>
